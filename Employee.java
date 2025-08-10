@@ -9,7 +9,6 @@ public class Employee {
     private byte department;
     private float salary;
     private int id;
-    //public переменная счетчик <-------------------------
 
     //методы класса
 

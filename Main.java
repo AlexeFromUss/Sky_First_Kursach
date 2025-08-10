@@ -100,6 +100,16 @@ public class Main {
         return sumingSalary(employees, otdel) / countPersonal; //не оптимально с точки зрения производительности, но красиво
     }
 
+    public static void printEmployeesHigherLevelSalary(Employee[] employees, float parametr) {
+        System.out.println("ЗП выше или равно "+ parametr+" у:");
+        for (Employee employee : employees) {
+            if (employee.getSalary() >= parametr) {
+                System.out.println("id: " + employee.getId() + " ФИО: " + employee.getLastname() + " " + employee.getFirstname() + " " + employee.getPatronymic() + " ЗП: " + employee.getSalary());
+            }
+
+        }
+    }
+
     public static void printEmployeesFewerLevelSalary(Employee[] employees, float parametr) {
         System.out.println("ЗП ниже уровня "+ parametr+" у:");
         for (Employee employee : employees) {
@@ -110,15 +120,7 @@ public class Main {
         }
     }
 
-    public static void printEmployeesHigherLevelSalary(Employee[] employees, float parametr) {
-        System.out.println("ЗП выше или равно "+ parametr+" у:");
-        for (Employee employee : employees) {
-            if (employee.getSalary() >= parametr) {
-                System.out.println("id: " + employee.getId() + " ФИО: " + employee.getLastname() + " " + employee.getFirstname() + " " + employee.getPatronymic() + " ЗП: " + employee.getSalary());
-            }
 
-        }
-    }
 
     public static void main(String[] args) {
 
