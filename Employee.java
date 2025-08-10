@@ -1,27 +1,5 @@
 import java.util.Objects;
 
-public class Employee {
-    private static int createID = 0;
-    //переменные
-    private String firstname;
-    private String lastname;
-    private String patronymic;
-    private byte department;
-    private float salary;
-    private int id;
-
-
-    //методы класса
-
-    public Employee(String lastname, String firstname, String patronymic, byte department, float salary) {
-        this.id = createID++;
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.patronymic = patronymic;
-        this.department = department;
-        this.salary = salary;
-    }
-
 
     //геттеры, сеттеры и т.д.
     @Override
