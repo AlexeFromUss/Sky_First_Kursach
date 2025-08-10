@@ -110,6 +110,7 @@ public class Main {
         }
     }
 
+
     public static void printEmployeesHigherLevelSalary(Employee[] employees, float parametr) {
         System.out.println("ЗП выше или равно " + parametr + " у:");
         for (Employee employee : employees) {
