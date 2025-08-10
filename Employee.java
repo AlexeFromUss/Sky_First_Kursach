@@ -10,7 +10,6 @@ public class Employee {
     private float salary;
     private int id;
 
-
     //методы класса
 
     public Employee(String lastname, String firstname, String patronymic, byte department, float salary) {
