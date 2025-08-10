@@ -1,6 +1,5 @@
 import java.util.Objects;
 
-
 public class Employee {
     private static int createID = 0;
     //переменные

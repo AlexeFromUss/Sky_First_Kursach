@@ -120,7 +120,6 @@ public class Main {
         }
     }
 
-
     public static void main(String[] args) {
 
         //заполнение данных сотрудников
