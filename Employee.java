@@ -11,8 +11,7 @@ import java.util.Objects;
                 ", patronymic='" + patronymic + '\'' +
                 ", department=" + department +
                 ", salary=" + salary +
-                '}';
-    }
+                '}';    }
 
     public int getId() {
         return id;
