@@ -125,7 +125,6 @@ public class Main {
 
         //заполнение данных сотрудников
 
-
         Employee[] employees = new Employee[10];
         employees[0] = new Employee("Иванов", "Иван", "Иванович", (byte) 1, 15_000);
         employees[1] = new Employee("Петров", "Пётр", "Петрович", (byte) 2, 85_000);

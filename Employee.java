@@ -12,7 +12,6 @@ public class Employee {
     private int id;
     //public переменная счетчик <-------------------------
 
-
     //методы класса
 
     public Employee(String lastname, String firstname, String patronymic, byte department, float salary) {
