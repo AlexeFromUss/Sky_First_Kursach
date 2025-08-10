@@ -11,7 +11,6 @@ public class Employee {
     private int id;
 
     //методы класса
-
     public Employee(String lastname, String firstname, String patronymic, byte department, float salary) {
         this.id = createID++;
         this.firstname = firstname;
